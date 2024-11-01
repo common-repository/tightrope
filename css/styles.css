@@ -1,0 +1,32 @@
+/* form
+--------------------------------------------- */
+.form-container-Horizontal .field-wrap {
+    margin: auto auto 20px;
+    width: 100%;
+}
+
+
+.form-container-Horizontal .field-wrap div{
+    display: inline;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.form-container-Horizontal .field-wrap div span{
+    position: absolute;
+    top: 40px;
+    font-size: 14px;
+    left: 0;
+}
+
+#captchaTable {
+    clear: both;
+}
+
+.form-container-Vertical .field.invalid, .form-container-Horizontal .field.invalid {
+       border: 1px solid #C30B0B;
+}
+
+.form-container-Vertical .field.valid, .form-container-Horizontal .field.valid {
+       border: 1px solid #09cc3e;
+}
